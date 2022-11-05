@@ -1,0 +1,10 @@
+termos = int(input('Digite quantos termos: '))
+a = 0
+b = 1
+cont = 1
+while cont <= termos:
+    print(a, end=' ')
+    aux = a + b
+    a = b
+    b = aux
+    cont += 1

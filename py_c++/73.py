@@ -1,0 +1,6 @@
+times = ('Flamengo','Santos','Palmeiras','Grêmio','Athletico-PR','São Paulo','Internacional','Corinthians','Fortaleza','Goiás','Bahia','Vasco','Atlético-MG','Fluminense','Botafogo','Ceará','Cruzeiro','CSA','Chapecoense','Avaí')
+print(f'Lista de times do Brasileirão: {times}')
+print(f'Os 5 primeiro são: {times[:5]}')
+print(f'Os 4 últimos são {times[-4:]}')
+print(f'Esses são os times em ordem alfabetica: {sorted(times)}')
+print('O Chapecoense está na {} posição.'.format(times.index('Chapecoense') + 1))
